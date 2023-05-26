@@ -237,3 +237,38 @@ body {
   z-index: 10;
   overflow:scroll;
 }
+
+.boyutla{
+ height:4500px
+}
+@media all and (max-width: 640px) {
+  .get-random-envelope {
+    position: absolute;
+    margin: auto;
+    top: 100px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    z-index: 1;
+    border-radius: 10px;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size:30px;
+    text-decoration: none;
+    text-align: center;
+    outline: none;
+  }
+
+
+  .mobile{
+    font-size:10px !important;
+  }
+
+  .boyutla{
+    height:1100px;
+  }
+}
